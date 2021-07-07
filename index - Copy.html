@@ -1,0 +1,104 @@
+<html><head>
+        <title>Min's Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&amp;family=Open+Sans&amp;display=swap" rel="stylesheet">
+    
+
+
+</head><body>
+<section id="banner">
+    <img src="Images/logo3.png" class="logo">
+    <div class="banner-text">
+        <h1>Min Pyae Thar</h1>
+        <div class="banner-btn">
+            <a href="#"><span></span>About Me</a>
+        </div>
+    
+    </div>
+    
+</section>
+    
+    
+  
+    
+<!-------Side Navigation--------->    
+<div id="sideNav" style="right: -250px;">
+    <nav>
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PERSONAL STATEMENT</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">TESTOMIALS</a></li>
+        <li><a href="#">CONTACT ME</a></li>
+        
+    
+        
+    </ul>
+    </nav>
+    </div>    
+    
+<div id="menuBtn">
+    <img src="Images/icons8-menu-128.png" id="menu">
+    
+</div>
+    
+    
+<!-------About Me--------->
+    
+<section id="feature">
+<div class="title-text">
+ <h1>WHO I AM</h1>
+    
+ </div>'
+</section>
+  
+    
+    
+    
+    
+    
+<script> 
+  
+    
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    
+    sideNav.style.right = "-250px";
+    
+        
+menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "Images/close.png";
+        
+    }
+    else{
+        sideNav.style.right = "-250px";
+        menu.src = "Images/icons8-menu-128.png";
+        
+        
+    }
+}
+    </script>
+    
+
+    
+        
+         
+
+ 
+
+
+
+
+
+</body>
+</html>
+      
+    
+
+
